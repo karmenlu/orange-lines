@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/orange-lines/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/orange-lines/static/js/main.c2a6f976.chunk.js",
+    "main.js.map": "/orange-lines/static/js/main.c2a6f976.chunk.js.map",
+    "runtime-main.js": "/orange-lines/static/js/runtime-main.75a05fd9.js",
+    "runtime-main.js.map": "/orange-lines/static/js/runtime-main.75a05fd9.js.map",
+    "static/js/2.bcddbd97.chunk.js": "/orange-lines/static/js/2.bcddbd97.chunk.js",
+    "static/js/2.bcddbd97.chunk.js.map": "/orange-lines/static/js/2.bcddbd97.chunk.js.map",
+    "static/js/3.397fea04.chunk.js": "/orange-lines/static/js/3.397fea04.chunk.js",
+    "static/js/3.397fea04.chunk.js.map": "/orange-lines/static/js/3.397fea04.chunk.js.map",
+    "index.html": "/orange-lines/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/orange-lines/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.bcddbd97.chunk.js.LICENSE.txt": "/orange-lines/static/js/2.bcddbd97.chunk.js.LICENSE.txt",
+    "static/media/logo.103b5fa1.svg": "/orange-lines/static/media/logo.103b5fa1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.75a05fd9.js",
+    "static/js/2.bcddbd97.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.c2a6f976.chunk.js"
+  ]
+}
