@@ -7,7 +7,7 @@ import RouteCreator from './RouteCreator';
 import {Switch, Route} from "react-router-dom";
 
 const MENU_ITEMS = [
-    {name: "Create", path: "/", id: "create"},
+    {name: "Create", path: "", id: "create"},
     {name: "About", path: "/about", id: "about"}
 ]
 
@@ -21,7 +21,7 @@ class App extends Component {
             <div>
                 <Menu menuItems={MENU_ITEMS}/>
                 <Switch>
-                    <Route exact path={"/"}>
+                    <Route exact path={""}>
                         <RouteCreator/>
                     </Route>
                     <Route exact path={"/about"}>
