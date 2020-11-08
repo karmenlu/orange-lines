@@ -1,25 +1,36 @@
-import logo from './logo.svg';
+import React, {Component} from 'react';
+import styled from 'styled-components';
 import './App.css';
+import Menu from './Menu';
+import About from './About';
+import RouteCreator from './RouteCreator';
+import {Switch, Route} from "react-router-dom";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const MENU_ITEMS = [
+    {name: "Create", path: "/", id: "create"},
+    {name: "About", path: "/about", id: "about"}
+]
+
+class App extends Component {
+    constructor(props) {
+        super(props);
+    }
+    
+    render() {
+        return (
+            <div>
+                <Menu menuItems={MENU_ITEMS}/>
+                <Switch>
+                    <Route exact path={"/"}>
+                        <RouteCreator/>
+                    </Route>
+                    <Route exact path={"/about"}>
+                        <About/>
+                    </Route>
+                </Switch>
+            </div>
+        );
+    }
 }
 
 export default App;

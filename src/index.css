@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.activeMenuItem.mainMenuItem {
+  border-bottom: 2px solid #FBD38D !important;
+}
+
+.activeMenuItem.mainMenuItem:hover {
+  border-bottom: 2px solid #FF9400 !important;
+}
+
+.mobileMenuItem.activeMenuItem{
+  border-left: 2px solid #FF6600;
+}
+
+.mobileMenuItem.activeMenuItem:hover{
+}
+
+.routeCreatorMap {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.routeCreatorMapContainer {
+  margin: auto;
+  width: 90%;
+  height: 20rem;
+  position: relative;
+}
+
+.selectedActivityInput {
+  border: 2px solid #FF9500 !important;
+  color: #FF9500 !important;
+}
