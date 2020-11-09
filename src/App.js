@@ -21,10 +21,10 @@ class App extends Component {
             <div>
                 <Menu menuItems={MENU_ITEMS}/>
                 <Switch>
-                    <Route exact path={""}>
+                    <Route exact path={"/orange-lines"}>
                         <RouteCreator/>
                     </Route>
-                    <Route exact path={"/about"}>
+                    <Route exact path={"/orange-lines/about"}>
                         <About/>
                     </Route>
                 </Switch>
