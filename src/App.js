@@ -7,8 +7,8 @@ import RouteCreator from './RouteCreator';
 import {Switch, Route} from "react-router-dom";
 
 const MENU_ITEMS = [
-    {name: "Create", path: "/orange-lines", id: "create"},
-    {name: "About", path: "/orange-lines/about", id: "about"}
+    {name: "Create", path: "/create", id: "create"},
+    {name: "About", path: "/about", id: "about"}
 ]
 
 class App extends Component {
@@ -21,10 +21,10 @@ class App extends Component {
             <div>
                 <Menu menuItems={MENU_ITEMS}/>
                 <Switch>
-                    <Route exact path={"/orange-lines"}>
+                    <Route exact path={"/create"}>
                         <RouteCreator/>
                     </Route>
-                    <Route exact path={"/orange-lines/about"}>
+                    <Route exact path={"/about"}>
                         <About/>
                     </Route>
                 </Switch>
