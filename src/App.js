@@ -7,8 +7,8 @@ import RouteCreator from './RouteCreator';
 import {Switch, Route} from "react-router-dom";
 
 const MENU_ITEMS = [
-    {name: "Create", path: "", id: "create"},
-    {name: "About", path: "/about", id: "about"}
+    {name: "Create", path: "/orange-lines", id: "create"},
+    {name: "About", path: "/orange-lines/about", id: "about"}
 ]
 
 class App extends Component {
